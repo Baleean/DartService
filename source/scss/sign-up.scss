@@ -1,0 +1,32 @@
+.sign-up {
+  width: 80px;
+  height: 25px;
+}
+
+.sign-up_position {
+  margin-top: 2px;
+}
+
+.sign-up_white-border {
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: solid 1px #ffffff;
+}
+
+.sign-up__text {
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.08;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+}
+
+.sign-up__text:hover {
+  background: #ffffff;
+  color: #061e37;
+}
