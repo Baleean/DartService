@@ -59,6 +59,34 @@ html, body {
   src: url("../fonts/Roboto-Regular.ttf");
 }
 
+.navigate__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigate__item {
+  margin: 3px 25px;
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-transform: capitalize;
+}
+
+.navigate__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navigate__link:hover {
+  color: #061e37;
+}
+
 .page-head {
   height: 750px;
 }
@@ -72,9 +100,9 @@ html, body {
   background-blend-mode: overlay;
 }
 
-.page-head__main {
+.page-head__header {
   display: grid;
-  grid-template-columns: 1fr minmax(450px, 500px) 1fr;
+  grid-template-columns: 1fr 500px 1fr;
   justify-content: space-between;
 }
 
@@ -88,4 +116,82 @@ html, body {
 
 .page-head__sign-up {
   justify-self: end;
+}
+
+.page-head__main {
+  display: grid;
+  grid-template-columns: repeat(2, 600px);
+  justify-content: space-between;
+  margin: 148px 0;
+}
+
+.video-block__description {
+  font-family: Raleway;
+}
+
+.video-block__title {
+  font-family: Raleway;
+  font-size: 55px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.sign-up {
+  width: 80px;
+  height: 25px;
+}
+
+.sign-up_position {
+  margin-top: 2px;
+}
+
+.sign-up_white-border {
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: solid 1px #ffffff;
+}
+
+.sign-up__text {
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.08;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+}
+
+.sign-up__text:hover {
+  background: #ffffff;
+  color: #061e37;
+}
+
+.video-block__title {
+  margin: 0;
+}
+
+.video-block__text {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.94;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin: 0;
+}
+
+.video-block__video {
+  border-radius: 5px;
 }

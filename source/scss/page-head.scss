@@ -28,3 +28,27 @@
 .page-head__sign-up {
   justify-self: end;
 }
+
+.page-head__main {
+  display: grid;
+  grid-template-columns: repeat(2, 600px);
+  justify-content: space-between;
+  margin: 148px 0;
+}
+
+.video-block__description {
+  font-family: Raleway;
+}
+
+.video-block__title {
+  font-family: Raleway;
+  font-size: 55px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+}
