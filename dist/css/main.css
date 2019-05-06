@@ -20,7 +20,7 @@
 
 .button__text {
   line-height: 55px;
-  margin: 0 35px;
+  margin: 0 42px;
   text-align: center;
 }
 
@@ -125,6 +125,7 @@ html, body {
 
 .page-head_position {
   padding: 50px 80px;
+  box-sizing: border-box;
 }
 
 .page-head_background {
