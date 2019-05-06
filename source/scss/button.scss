@@ -1,0 +1,32 @@
+.button {
+  height: 55px;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px 0 rgba(0, 0, 0, 0.15);
+  background: #ffffff;
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+}
+
+.button_position-video {
+  margin: 38px 30px 0 0;
+}
+
+.button__text {
+  line-height: 55px;
+  margin: 0 35px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #061e37;
+  cursor: pointer;
+  color: #ffffff;
+}
+
