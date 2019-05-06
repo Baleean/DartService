@@ -13,7 +13,7 @@
 
 .page-head__main {
   display: grid;
-  grid-template-columns: 1fr minmax(450px, 500px) 1fr;
+  grid-template-columns: 1fr 500px 1fr;
   justify-content: space-between;
 }
 
