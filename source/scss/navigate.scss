@@ -1,0 +1,31 @@
+.navigate {
+
+}
+
+.navigate__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigate__item {
+  margin: 3px 25px;
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-transform: capitalize;
+}
+
+.navigate__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navigate__link:hover {
+  color: #061e37;
+}
