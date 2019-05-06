@@ -3,7 +3,89 @@
   margin: 0 auto;
 }
 
+.logo {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+}
+
+.logo__title {
+  margin-left: 9px;
+  font-family: Raleway;
+  font-size: 15px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.logo__title-dart {
+  margin: 0;
+  font-weight: 400;
+}
+
+.logo__title-service {
+  margin-top: 2px;
+  font-weight: 800;
+}
+
 html, body {
   margin: 0;
   padding: 0;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Black.ttf");
+  src: url("../fonts/Raleway-BlackItalic.ttf");
+  src: url("../fonts/Raleway-Bold.ttf");
+  src: url("../fonts/Raleway-BoldItalic.ttf");
+  src: url("../fonts/Raleway-ExtraBold.ttf");
+  src: url("../fonts/Raleway-ExtraBoldItalic.ttf");
+  src: url("../fonts/Raleway-ExtraLight.ttf");
+  src: url("../fonts/Raleway-ExtraLightItalic.ttf");
+  src: url("../fonts/Raleway-Italic.ttf");
+  src: url("../fonts/Raleway-Light.ttf");
+  src: url("../fonts/Raleway-LightItalic.ttf");
+  src: url("../fonts/Raleway-Medium.ttf");
+  src: url("../fonts/Raleway-MediumItalic.ttf");
+  src: url("../fonts/Raleway-Regular.ttf");
+  src: url("../fonts/Raleway-SemiBold.ttf");
+  src: url("../fonts/Raleway-SemiBoldItalic.ttf");
+  src: url("../fonts/Raleway-Thin.ttf");
+  src: url("../fonts/Raleway-ThinItalic.ttf");
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+.page-head {
+  height: 750px;
+}
+
+.page-head_position {
+  padding: 50px 80px;
+}
+
+.page-head_background {
+  background: url("../img/header/Color Fill 1.png"), url("../img/header/Rectangle 1 copy 2.png");
+  background-blend-mode: overlay;
+}
+
+.page-head__main {
+  display: grid;
+  grid-template-columns: 1fr minmax(450px, 500px) 1fr;
+  justify-content: space-between;
+}
+
+.page-head__logo {
+  justify-self: start;
+}
+
+.page-head__nav {
+  justify-self: center;
+}
+
+.page-head__sign-up {
+  justify-self: end;
 }
